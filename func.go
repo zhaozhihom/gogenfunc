@@ -11,9 +11,10 @@ import (
 )
 
 //export generate
-func generate(outPath, url, tables, models string) int {
+func generate(outPath, url, tables, models, goModulePath string) int {
 	g := gen.NewGenerator(gen.Config{
-		OutPath: outPath,
+		OutPath:    outPath,
+		ModulePath: goModulePath,
 		/* Mode: gen.WithoutContext|gen.WithDefaultQuery*/
 		//if you want the nullable field generation property to be pointer type, set FieldNullable true
 		/* FieldNullable: true,*/
@@ -65,5 +66,5 @@ func generate(outPath, url, tables, models string) int {
 }
 
 func main() {
-	generate("dal/query", "root:@(127.0.0.1:3306)/gorm_test", "user_role,users", ",")
+	generate("dal/query", "root:@(127.0.0.1:3306)/gorm_test", "users", "", "github.com/zhaozhihom/genfunc")
 }
