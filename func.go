@@ -68,5 +68,5 @@ func generate(outPath, url, tables, models, goModulePath string) int {
 }
 
 func main() {
-	generate("dal/query", "root:@(127.0.0.1:3306)/gorm_test", "users", "", "github.com/zhaozhihom/genfunc")
+	generate("dal/query", "root:@(127.0.0.1:3306)/gorm_test", "users,user_role", ",", "github.com/zhaozhihom/genfunc")
 }

@@ -129,8 +129,8 @@ github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/yuin/goldmark v1.4.1/go.mod h1:mwnBkeHKe2W/ZEtQ+71ViKU8L12m81fl3OWwC1Zlc8k=
 github.com/zenazn/goji v0.9.0/go.mod h1:7S9M489iMyHBNxwZnk9/EHS098H4/F6TATF2mIxtB1Q=
-github.com/zhaozhihom/gen v1.0.7 h1:6R/y+yiv6tpuZQaU/STi35+q/5AYWStJ9J4iUp495jo=
-github.com/zhaozhihom/gen v1.0.7/go.mod h1:jYfHjwQM76BMHMu+CZQ9tvLQMnqGDeoSQG5nh6e3Aw0=
+github.com/zhaozhihom/gen v1.0.9 h1:EOgXCDVUy2JH0VJVueUrCZHPP9vwojbClBqIxH5MV2M=
+github.com/zhaozhihom/gen v1.0.9/go.mod h1:jYfHjwQM76BMHMu+CZQ9tvLQMnqGDeoSQG5nh6e3Aw0=
 go.uber.org/atomic v1.3.2/go.mod h1:gD2HeocX3+yG+ygLZcrzQJaqmWj9AIm7n08wl/qW/PE=
 go.uber.org/atomic v1.4.0/go.mod h1:gD2HeocX3+yG+ygLZcrzQJaqmWj9AIm7n08wl/qW/PE=
 go.uber.org/atomic v1.5.0/go.mod h1:sABNBOSYdrvTF6hTgEIbc7YasKWGhgEQZyfxyTvoXHQ=

@@ -3,7 +3,7 @@ module github.com/zhaozhihom/genfunc
 go 1.17
 
 require (
-	github.com/zhaozhihom/gen v1.0.7
+	github.com/zhaozhihom/gen v1.0.9
 	gorm.io/driver/mysql v1.3.3
 	gorm.io/gorm v1.23.9-0.20220713102635-3262daf8d468
 )
