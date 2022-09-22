@@ -53,7 +53,7 @@ func generate(outPath, url, tables, models, goModulePath string) int {
 		if model := modelSlice[i]; model == "" {
 			g.ApplyBasic(g.GenerateModel(table))
 		} else {
-			g.ApplyBasic(g.GenerateModelAs(table, models))
+			g.ApplyBasic(g.GenerateModelAs(table, modelSlice[i]))
 		}
 	}
 
@@ -68,5 +68,5 @@ func generate(outPath, url, tables, models, goModulePath string) int {
 }
 
 func main() {
-	generate("dal/query", "root:@(127.0.0.1:3306)/gorm_test", "users,user_role", ",", "github.com/zhaozhihom/genfunc")
+	generate("dal/query", "root:@(127.0.0.1:3306)/gorm_test", "users,user_role", "Us,", "github.com/zhaozhihom/genfunc")
 }
